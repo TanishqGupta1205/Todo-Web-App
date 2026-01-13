@@ -8,7 +8,6 @@ let currentFilter = "all";
 let todoText; // This should be populated when the user clicks on Add button
 let todos = [];
 let todosString = localStorage.getItem("todos")
-// If we have todos in the localStorage, we will read it
 if (todosString) {
     todos = JSON.parse(todosString);
     remaining.innerHTML = todos.filter((item)=>{return item.isCompleted!=true}).length;
