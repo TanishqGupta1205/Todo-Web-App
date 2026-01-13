@@ -12,4 +12,4 @@ A simple Todo application built using HTML, CSS, and JavaScript.
 ## Tech Stack
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- JavaScript 
