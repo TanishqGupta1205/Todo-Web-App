@@ -13,6 +13,3 @@ A simple Todo application built using HTML, CSS, and JavaScript.
 - HTML
 - CSS
 - JavaScript (Vanilla)
-
-## Live Demo
-(Optional: GitHub Pages link)
