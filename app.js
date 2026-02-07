@@ -39,7 +39,6 @@ const populateTodos = () => {
                 // Grab this todo from todos array and update the todos array to set this todo's isCompleted attribute as true
                 todos = todos.map(todo => {
                     if (todo.id == element.parentNode.id) {
-                        console.log(todo.id, element.parentNode.id)
                         return { ...todo, isCompleted: true }
                     }
                     else {
